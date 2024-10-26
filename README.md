@@ -11,6 +11,8 @@
 
 ## Overview
 
+![Profile Card Overview](https://github.com/OrasanuAna/profile-card/blob/master/profile-card.jpg)
+
 The Profile Card project provides a template for creating a modern and stylish profile card. It includes sections for displaying a profile picture, name, contact details, and brief personal information. The project is fully responsive and adjusts to different screen sizes, making it suitable for mobile and desktop displays.
 
 ## Features
