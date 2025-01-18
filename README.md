@@ -1,42 +1,63 @@
 # Profile Card
 
-**Profile Card** is a simple web-based project designed to showcase a personal or professional profile in a visually appealing format. This project can be used as a standalone profile display, integrated into personal websites, or embedded into other web projects.
+**Profile Card** is a React-based project designed to showcase a personal or professional profile in a clean and modern format. This project demonstrates the use of React for creating reusable and scalable UI components while implementing responsive design principles.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 
 ## Overview
 
 ![Profile Card Overview](https://github.com/OrasanuAna/profile-card/blob/master/profile-card.jpg)
 
-The Profile Card project provides a template for creating a modern and stylish profile card. It includes sections for displaying a profile picture, name, contact details, and brief personal information. The project is fully responsive and adjusts to different screen sizes, making it suitable for mobile and desktop displays.
+The project features a minimalist yet visually appealing card layout, ideal for displaying information like:
+- Profile picture
+- Name and title
+- Brief description or biography
+- Contact details (e.g., email, phone, or links to social media)
+
+This application showcases the practical implementation of React concepts such as:
+- Component-based architecture for modular development
+- Props for dynamic content handling
+- Basic state management for interactive elements
+
 
 ## Features
 
-- Responsive design that adapts to various screen sizes
-- Easy-to-customize HTML and CSS structure
-- Sections for profile image, name, description, and contact details
-- Clean and modern design
+- **Responsive Design**: The layout adjusts seamlessly across different screen sizes, ensuring usability on both desktop and mobile devices.
+- **Reusable Components**: Built with React's modular structure, making the card easy to integrate into other projects.
 
-## Installation
 
-1. **Clone the repository**:
+## Technologies Used
+
+- **React**: For building the user interface
+- **CSS**: For styling and responsive design
+- **JavaScript (ES6+)**: For component logic and interactivity
+
+
+## Installation and Usage
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/OrasanuAna/profile-card.git
    ```
-2. **Navigate to the project directory**:
+2. Navigate to the project directory:
    ```bash
    cd profile-card
    ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your web browser to view the profile card.
 
-No additional installation is required for this project if you only need to view it in a browser. However, for any modifications or development, you may want to use a local development server.
 
-## Usage
+## Deployment
 
-1. Open the `index.html` file in your preferred web browser to view the Profile Card.
-2. To customize the profile information, simply edit the `index.html` file, replacing placeholder text with your own details.
-3. For styling adjustments, edit the `styles.css` file in the project directory.
+Easily deploy the project using platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/) for hosting React applications.
+
+
+## Credits
+
+This project was developed as part of the **The Ultimate React Course: React, Next.js, Redux & More** by **Jonas Schmedtmann**.
